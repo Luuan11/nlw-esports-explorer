@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
 body{
     background-image: url(/assets/img/bg.jpg);
     background-position: top center;
@@ -44,6 +50,11 @@ header div img{
     box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.header-nav{
+    display: inline-block;
+    position: fixed;
+}
+
 .header-nav ul li{
     display: inline-block;
     padding: 10px 15px;
@@ -76,7 +87,7 @@ section{
     color: #fff;
     padding-top: 3px;
 
-    background: linear-gradient(90deg, #9572FC 0%, #43e7ad, #E2D45C 100%);
+    background: linear-gradient(90deg, #3e16b5 0%, #788d88 100%);
     border-radius: 10px;
     box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -115,22 +126,9 @@ section ul li:hover{
     transform: scale(1.1);
 }
 
-.games-list-ul img{
-    width: 90px;
-    border-radius: 8px;
+.music-list-ul iframe{
+    overflow: hidden;
 }
-
-.channel-list-ul img{
-    width: 70px;
-    border-radius: 50%;
-    border: 2px solid #443e54;
-}
-
-.network-list-ul i{
-    color: #9572FC;
-    font-size: 25px;
-}
-
 /* animation delay */
 
 header div{

@@ -30,7 +30,7 @@ header div:hover{
 header div{
     width: 120px;
     margin: auto;
-    background: linear-gradient(90deg, #9572FC 0%, #43e7ad, #E2D45C 100%);
+    background: linear-gradient(90deg, #e42c12 0%, #2828af 55%, #090979 100%);
     border-radius: 50%;
     transition: all .3s;
 
@@ -76,7 +76,7 @@ section{
     color: #fff;
     padding-top: 3px;
 
-    background: linear-gradient(90deg, #9572FC 0%, #43e7ad, #E2D45C 100%);
+    background: linear-gradient(90deg, #e42c12 0%, #2828af 55%, #090979 100%);
     border-radius: 10px;
     box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -115,20 +115,19 @@ section ul li:hover{
     transform: scale(1.1);
 }
 
-.games-list-ul img{
+.series-list-ul img{
     width: 90px;
     border-radius: 8px;
 }
 
-.channel-list-ul img{
-    width: 70px;
-    border-radius: 50%;
-    border: 2px solid #443e54;
+.movies-list-ul img{
+    width: 90px;
+    border-radius: 8px;
 }
 
-.network-list-ul i{
-    color: #9572FC;
-    font-size: 25px;
+.anime-list-ul img{
+    width: 90px;
+    border-radius: 8px;
 }
 
 /* animation delay */
